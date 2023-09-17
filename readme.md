@@ -1,5 +1,5 @@
 
-# Project Title
+# Arraytics Simple Form Plugin
 
 A simple form plugin to collect data through the form also showing data in a table. The plugin provides two different shortcodes for displaying a submission form and report table. All submissions data are available for logged in users.
 
