@@ -1,0 +1,71 @@
+/* Form styles */
+.asfp-form-wrapper {
+  overflow: hidden;
+  margin: 20px auto;
+  width: 600px;
+  border: 1px solid #b600ff;
+  border-radius: 10px;
+}
+
+.asfp-form-inner {
+  padding: 40px 40px 20px;
+}
+
+.single-entry {
+  width: 48%;
+  float: left;
+  margin-bottom: 20px;
+}
+
+.single-entry:nth-child(even) {
+  margin-left: 4%;
+}
+
+.single-entry label {
+  font-weight: bold;
+  cursor: pointer;
+}
+
+.single-entry input {
+  width: 100%;
+  padding: 10px 18px;
+  border: 1px solid #ddd;
+  color: #888;
+}
+
+.single-entry.asfp-note-entry {
+  width: 100%;
+  margin-left: 0;
+}
+
+.single-entry input:focus,
+.single-entry textarea:focus {
+  border: 1px solid #ddd;
+  outline: none;
+}
+
+.single-entry.submitBtn {
+  width: 100%;
+  text-align: center;
+  margin: 0 auto 8px;
+}
+
+.single-entry #submitBtn {
+  cursor: pointer;
+  width: 200px;
+  padding: 15px;
+  background: #b600ff;
+  color: #fff;
+  font-weight: bold;
+  border-color: inherit;
+  border-radius: 5px;
+}
+
+.asfp-confirmation-message {
+  font-weight: bold;
+  color: #b611ff;
+  /* text-align: center; */
+  overflow: hidden;
+  width: 100%;
+  min-height: 26px;
+}
